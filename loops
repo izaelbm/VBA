@@ -1,0 +1,6 @@
+#Percorrer tabela ate encontrar celula em branco
+i = 2
+    
+Do While Cells(i, 1).Value <> ""
+
+loop
