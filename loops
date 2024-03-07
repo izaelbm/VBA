@@ -1,6 +1,19 @@
-#Percorrer tabela ate encontrar celula em branco
+Sub PPR()
+
+Sheets("base").Select
+
+'Percorrer tabela ate encontrar celula em branco
 i = 2
     
 Do While Cells(i, 1).Value <> ""
+    ab_data = Cells(i, 9)
+    ab_hra = Cells(i, 10)
+    
+    
+    
+    i = i + 1
+Loop
 
-loop
+
+
+End Sub
